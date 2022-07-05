@@ -1,0 +1,166 @@
+*{
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  box-sizing: border-box;   
+  margin: 0;
+  padding: 0;
+}
+
+body{
+
+  background: #E5E5E5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main{
+Width: 570px;
+Height: 590px;
+margin-left: 36px;
+background: #FFFFFF;
+}
+
+form{
+  margin-left: 35px;
+  margin-top: 35px;
+  margin-bottom: 112px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 570px;
+  height: 590px;
+}
+
+input{
+border: 1px solid #E4E4E4;
+border-radius: 6px;
+}
+
+label{
+display:block;
+margin-bottom: 7px;
+}
+
+label{
+  display:block;
+  margin-bottom: 7px;
+  } 
+
+.select{
+-webkit-appearance: none;  
+-webkit-border-radius: 0px;
+Width: 245px;
+Height: 38px;
+border: 1px solid #E4E4E4;
+border-radius: 6px;
+cursor: pointer;
+color: #545454;
+font-size: 15px;
+background-image: url(../image/Arrow.png);
+background-repeat: no-repeat;
+background-position: right;
+background-position-x: 96%;
+
+}
+
+:is(.name, .email, .city, .zipcode, .phonenumber) {
+background: #FFFFFF;
+border: 1px solid #E4E4E4;
+border-radius: 6px;
+Width: 245px;
+Height: 38px;
+color: #545454;
+font-size: 15px;
+}
+
+:is(.name, .email, .city, .select, .zipcode, .phonenumber):focus {
+border: 1px solid #007BFF;
+outline: none;
+}
+
+.checkbox{
+display: inline-block;
+border: 1px solid;
+height: 20px;
+width: 20px;
+border-radius: 50%;
+}
+
+#userpic{
+  Width: 80px;
+  Height: 80px;
+}
+
+:is(.section1, .section2, .section3){
+  display: inline-block;
+  margin-right: 12px;
+}
+
+.section0{
+  display: flex;
+  gap: 20px;
+}
+
+#flex{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 9px;
+}
+
+#deletephoto{
+  width: 30px;
+  height: 30px;
+  background: #FFFFFF;
+  border: 1px solid #E4E4E4;
+  border-radius: 6px;
+  margin-top: 8px;
+}
+
+#upto{
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: -0.1px;
+  color: #969696;
+}
+
+#update{
+  background: #007BFF;
+  border: 1px solid #E4E4E4;
+  border-radius: 6px;
+  Width: 150px;
+  Height: 38px;
+  text-align: center;
+  letter-spacing: -0.1px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+
+#upphoto {
+  opacity: 0;
+  position: absolute;
+}
+
+#visible{
+  Width: 138px;
+  Height: 30px;
+  background: #FFFFFF;
+  border: 1px solid #E4E4E4;
+  border-radius: 6px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+#visible img{
+  width: 16px;
+  height: 16px;
+  right: 8px;
+  top: calc(50% - 16px/2);
+ margin-right: 11px;
+}
+

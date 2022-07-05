@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/styles/index.css">
+    <title>web-forms</title>
+</head>
+<body>
+    <main>
+    
+    <form autocomplete="off">
+
+         <h2>Profile</h2>
+
+         <div class="section0">
+         <img id="userpic" src="assets/image/📷 Image.png" alt="userpicture" title="userpicture">
+
+         <div id="flex">
+            
+               <input type="file" name="photo" id="upphoto">
+               <div id="visible">
+                  <img src="assets/image/Camera.png" alt="Camera" title="Camera"> 
+               </div>
+               <label id="upto">
+                  Up to 1 MB (300x300 px)
+               </label>
+         </div>
+       
+       <button id="deletephoto" type="submit" name="delete">
+          <img src="assets/image/delete.svg" alt="deletephoto" title="deletephoto">
+       </button><br>
+         </div>
+      <div>
+         <div class="section1">
+         <label for="name">Name</label>
+         <input type="text" name="name" class="name">
+         </div>
+
+         <div class="section1">
+         <label for="email2">E-mail</label>
+         <input type="email" name="email2" class="email">
+         </div><br>
+      </div>
+
+      <div>
+         <div class="section2">
+         <label for="Country2">Country</label>
+         <select name="Country2" class="select">
+            <option value="Ukraine">Ukraine</option>
+            <option value="Poland">Poland</option>
+            <option value="United Kingdom">United Kingdom</option>
+            <option value="Finland">Finland</option>
+            <option value="Norway">Norway</option>
+         </select>
+         </div>
+
+         <div class="section2">
+         <label for="city">City</label>
+         <input type="text" name="city" class="city">
+         </div><br>
+      </div>
+
+      <div>
+         <div class="section3">
+            <label for="zipcode">Zip Code</label>
+            <input type="text" name="zipcode" class="zipcode">
+         </div>
+
+         <div class="section3">
+            <label for="phonenumber">Phone Number</label>
+            <input type="text" name="phonenumber" class="phonenumber">
+         </div><br>
+      </div>
+     
+       <button id="update" type="submit">Update</button>
+
+    </form>
+
+</main>
+</body>
+</html>
